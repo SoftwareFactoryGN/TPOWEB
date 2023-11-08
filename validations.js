@@ -10,6 +10,8 @@ $(document).ready(function() {
         if (username !== 'admin') {
             // muestra mensaje de exito
             alert('Registro Completado con Exito');
+            window.location.href = 'login.html';
+
         } else {
             // muestra mensaje de error
             alert('Usuario ya existe');
