@@ -1,0 +1,107 @@
+/* styles.css */
+@media (max-width: 1024px) {
+
+    .navbar {
+        align-items: center;
+        flex-direction: column;
+        display: list-item;
+        text-align: center;
+        margin: 1px;
+    }
+    .nombreEmpresa{
+        color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+        font-size: medium;
+        margin: 1px;
+    }
+    ul{
+        padding: 0;
+    }
+}
+
+.navbar{
+    background-color: #162836;
+    display: flex;
+}
+.nombreEmpresa{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size:x-large;
+    margin: 1px;
+}
+
+ul {
+    margin: 1px;
+}
+
+li{
+    font-size: large;
+}
+.contenedorWeb{
+    text-align: center;
+    size: 90%;
+}
+
+.imagenWeb {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5%;
+    overflow: hidden; /* Asegura que la imagen siga la forma del contenedor redondeado */
+    border-style:solid;
+    border-width: 10px;
+    border-color: #162836;
+}
+.encabezado{
+    text-align: center;
+    background-color: #eaeaea;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    margin: 2%;
+}
+.main{
+    background-color: #eaeaea;
+    margin: 0px 0px;
+    height:auto;
+}
+.progress {
+
+height: 40px; /* Altura de la barra de progreso */
+width: 90%;
+background-color: #d5a187; /* Color de fondo de la barra de progreso */
+border: 1px solid #8e8e8e; /* Borde de la barra de progreso */
+border-radius: 10px;
+}
+.progress-bar {
+    height: 40px; /* Altura de la barra de progreso */
+    position: relative;
+    background-color: #cf7650; /* Color de fondo de la barra de progreso */
+    border: 1px solid #8e8e8e; /* Borde de la barra de progreso */
+    align-content: center;
+}
+
+.progress-text {
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    color:black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footerContent {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color:#162836;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
